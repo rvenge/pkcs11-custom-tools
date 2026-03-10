@@ -14,7 +14,7 @@ This repository contains various tools demonstrating custom HSM operations acros
 | `gen_ec_key.cs` | C# | A C# utility for generating ephemeral **Elliptic Curve (EC)** key pairs inside the HSM. | **Key Generation** |
 | `mldsa_keygen.cpp` | C++ | A C++ tool for generating **ML-DSA (CRYSTALS-Dilithium)** key pairs. *ML-DSA is a FIPS-standardized post-quantum signature algorithm.* | **Post-Quantum Key Generation** |
 | `mldsa_integrity.cpp` | C++ | A C++ tool for signing & verifying the integrity of **ML-DSA** signatures. | **Signature & Verification** |
-
+| `import_key_fips140level3.py` | Python | A script that uses nCipher HSM to generate an AES wrapping key and wraps/unwraps external OpenSSL-generated RSA keys according to FIPS 140 Level 3 requirements.
 ***
 
 ## 🛠️ Prerequisites
